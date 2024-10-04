@@ -1,0 +1,47 @@
+title {
+    width: 100px;
+    height: 100px;
+    content: '\f117';
+}
+body {
+    background-color:rgb(0, 1, 39);
+}
+    .container {
+        margin: 100px 0  0 200px;
+        width: 70%;
+        height: 450px;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    .container img {
+        width: 10%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+        border: 2px solid rgba(red, green, blue, alpha);
+        transition: all ease-in-out 0.5s;
+
+    }
+    .container img:hover {
+        width: 25%;
+    
+    }
+    .input{
+        position: fixed;
+        cursor: pointer;
+        color: azure;
+        font-size: 28px;
+        padding: 0.5rem
+        transition: color 0.45s
+
+
+    }
+    input::after{
+        position: absolute
+        inset:0 ;
+        z-index:-1 ;
+        transition: color 0.25
+        
+        
+    }
